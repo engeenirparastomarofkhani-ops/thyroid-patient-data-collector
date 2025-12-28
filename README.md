@@ -8,8 +8,11 @@ The program collects basic patient information, stores it using Python data stru
 
 ## Features
 Collects patient information (name, age, thyroid status)
+
 Stores data using Python dictionaries and lists
+
 Counts the number of patients in each thyroid category (normal, hypo, hyper)
+
 Displays patient summaries
 
 ## Technologies
