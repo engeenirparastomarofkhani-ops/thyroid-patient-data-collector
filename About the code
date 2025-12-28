@@ -1,7 +1,10 @@
 # Detailed Project Information
 ## Objective: Classification and Analysis of Thyroid Disease
-In this project, I wrote a program that takes three attributes from the user. Name, age, and thyroid disease status. These three are done by a for loop. At the end of the loop, I embedded a dictionary so that when the information is given, it is stored in the dictionary. Since the append() method cannot be used for dictionaries, we store this dictionary in a list that we have defined outside the loop, using this method.
-Now, to classify (analyze) the data, we create three lists named normal, hypothyroid, and hyperthyroid. Now, to check the value of the keyword thyroid status, I write a loop with the variable p, which is equal to a line of dictionary information each time in the loop:
+In this project, I wrote a program that takes three attributes from the user. Name, age, and thyroid disease status.
+These three are done by a for loop. At the end of the loop, I embedded a dictionary so that when the information is given, it is stored in the dictionary.
+Since the append() method cannot be used for dictionaries, we store this dictionary in a list that we have defined outside the loop, using this method.
+Now, to classify (analyze) the data, we create three lists named normal, hypothyroid, and hyperthyroid. Now, to check the value of the keyword thyroid status, 
+I write a loop with the variable p, which is equal to a line of dictionary information each time in the loop:
 p = {"name":"Ali","age":30,"ST":"normal"}
 
 Then in this loop, in the next step, I wrote a condition so that I can check which list the keyword is equal to:
@@ -10,4 +13,5 @@ if p["ST"] == "normal":
 
 If it is equal, it is added to the list. If it is not equal, the rest of the condition is checked and placed in the other lists.
 
-In the next section, using the len() method, I printed the values ​​in the lists to the output. In the next section, using the print() function and a for loop, I printed only the two keywords from the dictionary to the output.
+In the next section, using the len() method, I printed the values ​​in the lists to the output. In the next section, using the print() function and a for loop,
+I printed only the two keywords from the dictionary to the output.
