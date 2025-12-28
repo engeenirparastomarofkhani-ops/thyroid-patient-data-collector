@@ -17,7 +17,9 @@ Displays patient summaries
 
 ## Technologies
 Python
+
 Core data structures (lists, dictionaries)
+
 Conditional statements and loops
 
 ##  Purpose
@@ -25,8 +27,11 @@ This project serves as an initial step toward building medical data-driven appli
 
 ## Future Work
 Data preprocessing and label encoding
+
 Applying machine learning models for thyroid disease classification
+
 Working with real-world medical datasets
+
 Expanding the project using pandas and NumPy
 
 ## About Me
