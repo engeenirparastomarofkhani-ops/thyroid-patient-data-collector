@@ -1,0 +1,40 @@
+pationt = []
+for x in range(5):
+    name = input("plz enter your name:  ")
+    age = int(input("plz enter your age: "))
+    ST = input("plz enter your status thyroid: ")
+    pationt_dict = {
+        "name": name,
+        "age": age,
+        "ST": ST
+    }
+    pationt.append(pationt_dict)
+
+normal = []
+hypo = []
+hyper = []
+
+for p in pationt:
+    if p["ST"] == "normal":
+        normal.append(p)
+    elif p["ST"] == "hypo":
+        hypo.append(p)
+    elif p["ST"] == "hyper":
+        hyper.append(p)
+
+print("Number of patients:")
+print("normal :", len(normal))
+print("hypo:", len(hypo))
+print("hyper:", len(hyper))
+
+print("the normal poeple is:  ")
+for p in normal:
+    print(p["name"], "-", p["age"])
+
+print("the hyper thyroid people is: ")
+for p in hyper:
+    print(p["name"], "-", p["age"])
+
+print("the hypothyroud people is:  ")
+for p in hypo:
+    print(p["name"], "-", p["age"])
